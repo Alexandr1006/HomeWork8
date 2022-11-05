@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-//OneTask
+//OneTask(Зарплата)
 
         int salary = 15000;
         int total = 0;
@@ -12,7 +12,7 @@ public class Main {
         }
         System.out.println("Месяц " + month + ", сумма накоплений равна " + total + " рублей");
 
-//TwoTask
+//TwoTask(числа)
         int a = 0;
         while (a <= 10) {
             a = a + 1;
@@ -23,7 +23,7 @@ public class Main {
                 System.out.print(b + " ");
             }
 
-//ThreeTask
+//ThreeTask(численность)
 
         int population = 12_000_000;
         int fertilityYear = population / 1000 * 17;
@@ -33,7 +33,7 @@ public class Main {
             System.out.println("\n"+ "Год " + c + ", численность населения составляет " + population);
         }
 
-//FourTask
+//FourTask(накопление1)
 
         int money = 15000;
         int totalMoney = 0;
@@ -45,7 +45,7 @@ public class Main {
             System.out.println("1Месяц " + cumulationMonth + " 1Накоплений " + totalMoney);
         }
 
-//FiveTask
+//FiveTask(накопление2)
 
         int money1 = 15000;
         int totalMoney1 = 0;
@@ -59,7 +59,7 @@ public class Main {
             }
         }
 
-//SixTask
+//SixTask(накопление3)
 
         int money2 = 15000;
         int totalMoney2 = 0;
@@ -71,20 +71,20 @@ public class Main {
             }
         }
 
-//SevenTask
+//SevenTask(день недели)
 
         for(int friday = 4; friday <= 31; friday+= 7){
             System.out.println("Сегодня пятница," + friday + "-е число. Необходимо подготовить отчет.");
         }
 
-//EightTask
+//EightTask(комета)
 
         for(int oldYear = 1822;oldYear <=2122; oldYear++) {
             if (oldYear % 79 == 0) {
                 System.out.println("Комета пролетает в " + oldYear);
             }
         }
-//NineTask
+//NineTask(таблица умножений)
 
         for(int number = 1; number<= 10; number++) {
            int multiplication = number * 2;
